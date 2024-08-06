@@ -13,6 +13,7 @@ const createList = (x, y) =>{
     paragraph.innerHTML = `Product Name: <b>${x}</b> the price is: <b>${y}</b>`;
 }
 
+//add event listener 
 let total = 0;
 cashForm.addEventListener("submit", (e)=>{
     e.preventDefault();
