@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(0, 0, 136);
+    color: white;
+}
+
+.container{
+    background-color: gold;
+    color: black;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cashForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+}
+
+#cashForm input{
+    font-size: 1.3rem;
+    padding: 8px;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+#memoButton{
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    padding: 7px;
+    font-weight: bold;
+    background-color: blueviolet;
+    color: white;
+}
+
+.container p{
+    font-size: 1.3rem;
+    /* background-color: bisque; */
+    color: black;
+    padding: 7px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.result{
+    background-color: gold;
+    padding: 10px;
+    width: 500px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.result p{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
